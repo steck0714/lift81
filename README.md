@@ -1,5 +1,4 @@
-# lse-shim — ARMv8.0 で ARMv8.1 (LSE) atomics を使えるようにする
-
+# lift81
 ARMv8.0 の CPU (例: Tegra X1 / **T210** = Cortex-A57/A53) で、LSE 命令
 (`CAS`/`CASP`/`SWP`/`LDADD`/`LDCLR`/`LDEOR`/`LDSET`/`LDSMAX`/`LDSMIN`/`LDUMAX`/`LDUMIN`/`ST*`)
 を **LDAXR/STLXR ループに変換して実行**するエミュレーション・コア。
